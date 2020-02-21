@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ilostsarts.reportforms.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_secondFragment"
+            app:destination="@id/secondFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_handoutFragment"
+            app:destination="@id/handoutFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.ilostsarts.reportforms.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_secondFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/handoutFragment"
+        android:name="com.ilostsarts.reportforms.HandoutFragment"
+        android:label="fragment_handout"
+        tools:layout="@layout/fragment_handout" >
+        <action
+            android:id="@+id/action_handoutFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.ilostsarts.reportforms.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+        <action
+            android:id="@+id/action_resultFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ReportForms</string>
+    <string name="hint_index4">4#</string>
+    <string name="hint_index2">2#</string>
+    <string name="hint_frequency">频率</string>
+    <string name="hint_elec">电流</string>
+    <string name="hint_flow1">1#流量计</string>
+    <string name="hint_flow2">2#流量计</string>
+    <string name="hint_last_flow1">1#流量计(Last)</string>
+    <string name="hint_last_flow2">2#流量计(Last)</string>
+    <string name="hint_last_index4">4# (Last)</string>
+    <string name="hint_last_index2">2# (Last)</string>
+    <string name="btn_run">计&#12288;&#12288;算</string>
+    <string name="btn_clear">清&#12288;&#12288;除</string>
+    <string name="tv_flow1">流量1</string>
+    <string name="tv_flow2">流量2</string>
+    <string name="tv_sumFlow">合计流量</string>
+    <string name="tv_watt4">电度4#</string>
+    <string name="tv_watt2">电度2#</string>
+    <string name="hint_level">水位</string>
+    <string name="hint_pressure">平均压力</string>
+    <string name="tv_power">功</string>
+    <string name="shp_name">SHP_NAME</string>
+    <string name="key_last_flow1">LASTFLOW1</string>
+    <string name="key_last_flow2">LASTFLOW2</string>
+    <string name="key_last_index1">LASTINDEX1</string>
+    <string name="btn_experiment">化验记录</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="record1">一期北</string>
+    <string name="record2">一期南</string>
+    <string name="record3">二&#12288;期</string>
+    <string name="record4">三&#12288;期</string>
+    <string name="record5">三期中</string>
+    <string name="btn_back">返&#12288;回</string>
+    <string name="out_pressure">出水压力</string>
+    <string name="btn_handover">交班记录</string>
+    <string name="hint_newPump">新二泵</string>
+    <string name="hint_oldPump">老二泵</string>
+    <string name="record6">次&#12288;钠</string>
+</resources>

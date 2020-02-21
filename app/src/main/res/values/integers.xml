@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="input_length">5</integer>
+    <integer name="varyFreq_factor">10</integer>
+    <integer name="fixFreq_factor">900</integer>
+    <integer name="power_factor">1000</integer>
+</resources>
